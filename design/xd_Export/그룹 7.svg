@@ -1,0 +1,63 @@
+<svg id="그룹_7" data-name="그룹 7" xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(0,0,0,0.66);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: rgba(0,0,0,0.27);
+      }
+
+      .cls-3 {
+        fill: rgba(178,178,178,0.78);
+      }
+
+      .cls-4 {
+        font-size: 121px;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-5 {
+        font-size: 83px;
+      }
+
+      .cls-6 {
+        fill: #fff;
+        font-size: 47px;
+      }
+
+      .cls-7 {
+        stroke: none;
+      }
+
+      .cls-8 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="사각형_3" data-name="사각형 3" class="cls-1">
+    <rect class="cls-7" width="1920" height="1080"/>
+    <rect class="cls-8" x="0.5" y="0.5" width="1919" height="1079"/>
+  </g>
+  <g id="사각형_1" data-name="사각형 1" class="cls-2" transform="translate(320)">
+    <rect class="cls-7" width="500" height="1080"/>
+    <rect class="cls-8" x="0.5" y="0.5" width="499" height="1079"/>
+  </g>
+  <g id="사각형_2" data-name="사각형 2" class="cls-3" transform="translate(990)">
+    <rect class="cls-7" width="680" height="1080"/>
+    <rect class="cls-8" x="0.5" y="0.5" width="679" height="1079"/>
+  </g>
+  <text id="Symbolic_Content" data-name="Symbolic Content" class="cls-4" transform="translate(520 540) rotate(90)"><tspan x="-470.618" y="0">Symbolic Content</tspan></text>
+  <text id="Detail_Contents" data-name="Detail Contents" class="cls-5" transform="translate(1330 575)"><tspan x="-281.868" y="0">Detail Contents</tspan></text>
+  <text id="Symbolic_Content_Background" data-name="Symbolic Content Background" class="cls-6" transform="translate(890.5 540.5) rotate(90)"><tspan x="-313.417" y="0">Symbolic Content Background</tspan></text>
+  <text id="Symbolic_Content_Background-2" data-name="Symbolic Content Background" class="cls-6" transform="translate(1778.5 540.5) rotate(90)"><tspan x="-313.417" y="0">Symbolic Content Background</tspan></text>
+  <text id="Symbolic_Content_Background-3" data-name="Symbolic Content Background" class="cls-6" transform="translate(145.5 540.5) rotate(90)"><tspan x="-313.417" y="0">Symbolic Content Background</tspan></text>
+</svg>

@@ -91,3 +91,10 @@ Then, from within your project folder:
 npm run build
 surge public my-project.surge.sh
 ```
+
+
+---
+### references
+* https://svelte.dev/examples#svelte-window-bindings
+* http://www.benmingo.com/
+* 
