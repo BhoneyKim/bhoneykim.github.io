@@ -6,8 +6,9 @@
     order: 2;
 }
 .content-col{
-    width: 50%;
-    min-height: 100%;
+    width: 100%;
+    flex: 1;
+    height: 3rem;
 }
 </style>
 <div class="content-col detail-content">

@@ -1,14 +1,25 @@
 <script>
 
+    let src = "./SVG/Imagineer.svg";
 </script>
 
 
 <style>
 
 .symbolic-text{
-    font-size: 15rem;
-    writing-mode: vertical-rl;
-    padding: 1rem;
+    /* font-size: 15rem; */
+    /* writing-mode: vertical-rl; */
+    /* padding: 5%; */
+    
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+
+    margin-left: 33.3%;
+    margin-right: 14.6%;
+    margin-top: 30%;
+    margin-bottom: 30%;
+    
 }
 .symbolic-content{
     order: 1;
@@ -16,17 +27,25 @@
     justify-content: center;
 }
 .content-col{
-    height: 100%;
-    width: 100%;
+    background-color: black;
+    flex: 1;
+    max-height: 100%;
+    max-width: 100%;
 }
-.text-rotate-container{
+/* .text-rotate-container{
     position: absolute;
     background-color: #abcdef;
-    /* transform-origin: 0% 100%;
-    transform: rotate(90deg); */
-}
+    transform-origin: 50% 50%;
+    transform: rotate(0deg);
+} */
 
 </style>
+
+<div class="content-col symbolic-content">
+        <img class="symbolic-text" {src} alt="symbolicImage">
+</div>
+
+<!-- 
 <div class="content-col symbolic-content">
     <div class="text-rotate-container">
         <h1 class="symbolic-text">
@@ -34,3 +53,4 @@
         </h1>
     </div>
 </div>
+ -->

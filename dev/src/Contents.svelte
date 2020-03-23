@@ -10,6 +10,7 @@ import DetailContents from './Contents/DetailContents.svelte';
     display: flex;
     flex-direction: row;
 }
+
 </style>
 
 <div class="content-container">
