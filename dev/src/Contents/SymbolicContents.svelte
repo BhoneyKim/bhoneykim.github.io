@@ -13,15 +13,15 @@
     
     max-width: 100%;
     max-height: 100%;
+
     object-fit: contain;
 
-    margin-left: 33.3%;
+    margin-left: 23.95%;
     margin-right: 14.6%;
     margin-top: 30%;
     margin-bottom: 30%;
-    
 }
-.symbolic-content{
+.symbolic-content-wrapper{
     order: 1;
     align-content: center;
     justify-content: center;
@@ -41,7 +41,7 @@
 
 </style>
 
-<div class="content-col symbolic-content">
+<div class="content-col symbolic-content-wrapper">
         <img class="symbolic-text" {src} alt="symbolicImage">
 </div>
 

@@ -5,13 +5,15 @@
 	
 </script>
 
-<!-- <Splash title="hello bhoney"/> -->
 
 <Contents/>
 
 
 
 <style>
+	:global(body){
+		padding: 0;
+	}
 	main {
 		text-align: center;
 		padding: 1em;
