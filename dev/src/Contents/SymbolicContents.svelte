@@ -32,6 +32,13 @@
     max-height: 100%;
     max-width: 100%;
 }
+
+
+@media screen and (max-width:600px){
+        .symbolic-content-wrapper{
+            display: none;
+        }
+}
 /* .text-rotate-container{
     position: absolute;
     background-color: #abcdef;

@@ -39,13 +39,24 @@ h3{
     font-weight: lighter;
 }
 
+.profile-content{
+    line-height: 1.25rem;
+}
+
 .list-row-wrapper{
     display: inline-block;
 }
 
 .gutter-linespace{
     padding-bottom: 4px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
+
+.gutter-extra{
+    padding-top: 8px;
+}
+
 .gutter-topic{
     padding-top: 33.3%;
 }
@@ -70,9 +81,9 @@ h3{
 }
 
 .detail-content{
-    margin-left: 14.6%;
-    margin-right: 10.9%;
-    margin-top: 30%;
+    margin-left: 7.3%;
+    margin-right: 14.6%;
+    margin-top: 50%;
 }
 
 .detail-content-wrapper{
@@ -83,9 +94,19 @@ h3{
     order: 2;
 }
 
+.white-space{
+    content: "";
+    margin-right: 28px;
+}
+
 .content-col{
     flex: 1;
 }
+
+@media screen and (max-width:600px){
+    
+}
+
 </style>
 
 
@@ -95,8 +116,8 @@ h3{
 
         <h2 class="detail-space gutter-topic">1. PROFILE</h2>
 
-        <p>Byounghern Joe Kim is a software and embedded system engineer based in Ulsan, South Korea.
-He currently works at UNIST as a researcher. He enjoys working on development of product-service system idea with good friends.</p>
+        <p class="profile-content">Byounghern Joe Kim is a software and embedded system engineer based in Ulsan, South Korea.
+He currently works at UNIST as a researcher. He enjoys working on product development with good friends.</p>
 
         <h2 class="detail-space gutter-topic">2. RECOGNITION<br>(5 ITEMS)</h2>
 
@@ -122,7 +143,7 @@ He currently works at UNIST as a researcher. He enjoys working on development of
 
         <div>
             <div class="list-row-wrapper gutter-linespace">
-                <p class="list-number">iv.</p><p class="detail-space">Product & Service Development Projects (20)</p>
+                <p class="list-number">iv.</p><p class="detail-space">Product & Service Projects (20)</p>
             </div>
         </div>
 
@@ -137,9 +158,11 @@ He currently works at UNIST as a researcher. He enjoys working on development of
 
         <h2 class="detail-space gutter-topic">3. ASSOCIATED GROUPS</h2>
 
-        <p>Design & Electronic Convergence System Lab, UNIST.</p>
-        <p>POSTECH Creative Entrepreneur Omphalos</p>
-        <p>Softwarer Maestro</p>
+        <div class="">
+                <p class="gutter-linespace gutter-extra">Design & Electronic Convergence System Lab</p>
+                <p class="gutter-linespace gutter-extra">POSTECH Creative Entrepreneur Omphalos</p>
+                <p class="gutter-linespace gutter-extra">Softwarer Maestro</p>
+        </div>
 
 
         <h2 class="detail-space gutter-topic">4. CONTACT</h2>
@@ -149,7 +172,7 @@ He currently works at UNIST as a researcher. He enjoys working on development of
 
 
         <div class="gutter-topic">
-            <h3>Location<i/>Ulsan, South Korea.</h3>
+            <h3>Location<i class="white-space"/>Ulsan, South Korea.</h3>
         </div>
     </div>
 
