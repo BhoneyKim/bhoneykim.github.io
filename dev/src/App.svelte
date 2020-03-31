@@ -13,6 +13,7 @@
 <style>
 	:global(body){
 		padding: 0;
+		background-color: #000000;
 	}
 	main {
 		text-align: center;

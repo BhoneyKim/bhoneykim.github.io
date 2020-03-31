@@ -83,15 +83,11 @@ h3{
 .detail-content{
     margin-left: 7.3%;
     margin-right: 14.6%;
-    margin-top: 50%;
 }
 
 .detail-content-wrapper{
     
     background-color: #000000;
-    max-height: 100%;
-    max-width: 100%;
-    order: 2;
 }
 
 .white-space{
@@ -100,7 +96,8 @@ h3{
 }
 
 .content-col{
-    flex: 1;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 @media screen and (max-width:600px){
@@ -161,7 +158,7 @@ He currently works at UNIST as a researcher. He enjoys working on product develo
         <div class="">
                 <p class="gutter-linespace gutter-extra">Design & Electronic Convergence System Lab</p>
                 <p class="gutter-linespace gutter-extra">POSTECH Creative Entrepreneur Omphalos</p>
-                <p class="gutter-linespace gutter-extra">Softwarer Maestro</p>
+                <p class="gutter-linespace gutter-extra">Software Maestro</p>
         </div>
 
 

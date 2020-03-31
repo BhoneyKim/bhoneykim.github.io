@@ -22,17 +22,9 @@
     margin-bottom: 30%;
 }
 .symbolic-content-wrapper{
-    order: 1;
     align-content: center;
     justify-content: center;
 }
-.content-col{
-    background-color: black;
-    flex: 1;
-    max-height: 100%;
-    max-width: 100%;
-}
-
 
 @media screen and (max-width:600px){
         .symbolic-content-wrapper{
@@ -48,7 +40,7 @@
 
 </style>
 
-<div class="content-col symbolic-content-wrapper">
+<div class="symbolic-content-wrapper">
         <img class="symbolic-text" {src} alt="symbolicImage">
 </div>
 
